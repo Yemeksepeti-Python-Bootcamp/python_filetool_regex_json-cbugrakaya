@@ -5,8 +5,7 @@ from sqlite3 import Error
 class DatabaseTool():
 
     def insert_data(conn, table_name, *args):
-        """
-        insert data to the table
+        """ insert data to the table
         :param conn: Connection object
         :param table_name: name of the table
         :return:
